@@ -95,7 +95,7 @@ form {
   display: flex;
   flex-direction: column;
   border: 2px solid #ff385c;
-  padding: 20px;
+  padding: 20px;  
 }
 
 form label {
@@ -103,9 +103,8 @@ form label {
 }
 
 form select,
-form input {
-  float: right;
-  justify-content: right;
+form input {  
+  justify-self: end;
   margin-bottom: 20px;
   width: 180px;
 }
@@ -117,6 +116,23 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  justify-content: space-between;
+}
+
+.form-item {
+  flex: 1;
+  margin: 10px; 
+}
+
+.form-item-search {
+  flex: 1;
+  margin: 10px; 
 }
 
 .group {
@@ -178,9 +194,9 @@ footer p {
 
   form {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
     border: 2px solid #ff385c;
-    padding: 10px;
+    padding: 10px;    
   }
   
   form label {
@@ -189,7 +205,7 @@ footer p {
   
   form select,
   form input {
-    width: 180px;
+    width: 180px;    
   }
   
   form button {
@@ -200,10 +216,23 @@ footer p {
     width: 100%;
   }
 
-  .form-item {
-    flex: 1;
+  .form-group {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
-  }  
+  }
+  
+  .form-item {
+    flex: 1;    
+    padding: 1px;
+    margin: 0px;        
+  }
+
+  .form-item-search {
+    flex: 2;    
+    padding: 0px;
+    margin: 0px;        
+  }
 
   .group {
     display: flex;
@@ -217,7 +246,7 @@ footer p {
 
   .item-single {
     flex: 1;
-    margin: 10px;
+    margin: 10px;    
   }
 
   .item-single img {
