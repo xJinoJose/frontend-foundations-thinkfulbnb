@@ -95,7 +95,8 @@ form {
   display: flex;
   flex-direction: column;
   border: 2px solid #ff385c;
-  padding: 20px;  
+  padding: 20px;
+  width: 100%;
 }
 
 form label {
