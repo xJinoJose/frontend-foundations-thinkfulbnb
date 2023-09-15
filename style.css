@@ -216,8 +216,7 @@ footer p {
     width: 100%;
   }
 
-  .form-group {
-    display: flex;
+  .form-group {    
     flex-direction: column;
     padding: 10px;
   }
@@ -229,9 +228,7 @@ footer p {
   }
 
   .form-item-search {
-    flex: 2;    
-    padding: 0px;
-    margin: 0px;        
+    flex: 2;               
   }
 
   .group {
